@@ -1,17 +1,25 @@
-<h4> Contact me </h4>
+<html>
+  <head>
+    {%include 'bootstrap.html'%}
+  </head>  
+  <body>
+    {%include 'banner.html' %}
+<h4>Contact Me</h4>
 <form action="/message" method="post">
   <div>
-    <label> Full Name </label><br>  
-    <input type= "text" name= "full_name" placeholder="Hadeel Alghassab">
+  <label> Full Name</label><br>
+  <input type="text" name="full_name" placeholder="Hadeel Alghassab">
   </div>
   <div>
-    <label> E-mail </label><br>  
-    <input type= "text" name= "email" placeholder="hadeel.h.gh@gmail.com">
+    <label> E-mail</label><br>
+    <input type="text" name="email" placeholder="hadeel.h.gh@gmail.com">
   </div>
   <div>
-    <label> Message </label><br>  
-    <textarea name="message" placeholder="Salam I'm Hadeel Alghassab">
+    <label> Message </label><br>
+    <textarea name="message" placeholder=" Salam I'm Hadeel Alghassab"> 
     </textarea>
-    </div>
+ </div>
   <input type="submit">
 </form>
+  </body>
+</html>
