@@ -17,12 +17,10 @@ def show_project(id):
   project = load_project_from_db(id)
   return render_template('projectdetails.html', project=project)
 
-
 @app.route("/contactme")
 def contactpage():
   return render_template('contactme.html')
-
-
+  
 @app.route("/message", methods=['post'])
 def message():
   data = request.form

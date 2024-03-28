@@ -4,9 +4,12 @@
   <body>
     
     <title> {{myname}} Projects </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    
+  </body>
     {% include 'bootstrap.html' %}
-    
-    
   </head>
 <body>
   <div class="container">
@@ -25,7 +28,7 @@
     {% endfor %}
 </div>
 <div class="text-center">
-  <a href="/contactme" type="button" class="btn btn-primary">Contact Me</a>
+  <a href="/contactme" type="button" class="btn btn-default btn-lg bg-white" style="background-color:white; color:darkblue;">Contact Me</a>
 <p> copy right , {{myname}} <p>
   </div>
 </body>
